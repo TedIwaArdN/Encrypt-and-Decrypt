@@ -42,7 +42,7 @@ int main() {
 	else {
 		ifstream cryptogram("cryptogram.txt");
 		ofstream trueCode("truecode.txt");
-		cout<<"Your true code is: \n";
+		cout << "Your true code is: \n";
 		int digit1, digit2, digit3;
 		int num;
 		while(1) {
@@ -72,7 +72,7 @@ int main() {
 			cout << (char)num;
 			trueCode << (char)num;
 		}
-		cout<<"\n~~~~~~~~~~~~~~~~~~~~~~~~That's a secret!~~~~~~~~~~~~~~~~~~~~~~~~\n";
+		cout << "\n~~~~~~~~~~~~~~~~~~~~~~~~That's a secret!~~~~~~~~~~~~~~~~~~~~~~~~\n";
 		cryptogram.close();
 		trueCode.close();
 	}
