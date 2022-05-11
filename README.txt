@@ -1,5 +1,6 @@
-Encrypt and Decrypt function
-Edward Tian v1.0.1
+Encrypt and Decrypt Function
+v0.0.1
+Edward Tian
 
 This program shows a way to generate and solve cryptograms using ASCII code. 
 
